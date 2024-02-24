@@ -29,10 +29,12 @@ def main():
 
     win = QWidget()
     win.setFixedSize(WIDTH, HEIGHT)
+    win.setWindowIcon(QtGui.QIcon('Teams.png'))
     win.setWindowTitle('Microsoft Teams')
 
     main_window = QWidget()
     main_window.setFixedSize(1024, 768)
+    main_window.setWindowIcon(QtGui.QIcon('Teams.png'))
     main_window.setWindowTitle('Microsoft Teams')
 
 # ---------------- Menu list --------------------
