@@ -39,7 +39,7 @@ def main():
 
 # ---------------- Menu list --------------------
 
-    menus = {}
+    menus = []
 
     def hide_menus():
         for menu in menus:
