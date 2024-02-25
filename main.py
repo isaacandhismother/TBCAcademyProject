@@ -101,6 +101,8 @@ def main():
         written_username_password = {'username': username_field.text(),
                                      'password': password_field.text()}
 
+        print(menus)
+
         answer = compare_data('Teams_data.txt', written_username_password, True)
 
         if answer is True:
@@ -296,8 +298,7 @@ def main():
     help_button.setText('Need help?')
     help_button.move(380, 320)
     help_button.setStyleSheet('color: blue;'
-                              'border: None;'
-                              'text-style: underline')
+                              'border: None;')
     help_button.clicked.connect(print_help)
 
     win.show()
